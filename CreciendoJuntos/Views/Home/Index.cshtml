@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="background-image: url('/Content/Images/LogoP.jpeg'); background-size: cover;">
+    <h1>Centro Creciendo  Juntos</h1>
+    <p class="lead">Centro Educativo de Atención Integral a Personas con Discapacidad, Asesorías Técnicas, Capacitación Profesional y Empresarial</p>
+    <p><a href='@Url.Action("About", "Home")' class="btn btn-primary btn-lg">Acerca de &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="background-image: url('/Content/Images/Insta/Insta (3).jpeg'); background-size: cover;">
+        <h2 style="color:black;">Instalaciones</h2>
+        <p style="color:black;">Localizado en la provincia de Heredia, en el cantón de Belén, el centro educativo Creciendo Juntos esta acondicionado para recibir los niveles de preescolar, primer ciclo, segundo ciclo y tercer y cuarto  ciclo de educación especial
+        </p>
+        <p><a class="btn btn-default" href='@Url.Action("Instalaciones", "Home")'>Ver más &raquo;</a></p>
+    </div>
+    <div class="col-md-4" style="background-image: url('/Content/Images/Insta/Insta (7).jpeg'); background-size: cover;">
+        <h2 style="color:black;">Servicios</h2>
+        <p style="color:black;">El centro educativo Creciendo Juntos ofrece servicios de educación especial para, preescolar, I, II, III y IV ciclo, centro diurno para mayores de 18 años, Cursos Técnicos e Inserción laboral para personas con discapacidad. </p>
+        <p><a class="btn btn-default" href='@Url.Action("Servicios", "Home")'>Ver más &raquo;</a></p>
+    </div>
+    <div class="col-md-4" style="background-image: url('/Content/Images/Personal/Personal.jpg'); background-size: cover;">
+        <h2 style="color:black;">Personal</h2>
+        <p style="color:black;">El centro educativo Creciendo Juntos cuenta con un personal capacitado en diversas áreas de la enseñanza especial, egresados de Universidades acreditadas y capacitados para atender todas las necesidades de los alumnos.</p>
+        <p><a class="btn btn-default" href='@Url.Action("Personal", "Home")'>Ver más &raquo;</a></p>
+    </div>
+    <div class="col-md-4" style="background-image: url('/Content/Images/LogoB.jpeg'); background-size: cover;">
+        <h2 style="color:black;">Matrícula</h2>
+        <p style="color:black;">El centro educativo Creciendo Juntos tiene matrícula abierta! Conviértete en una historia de éxito hoy! Con los precios más accesibles del mercado! </p>
+        <p><a class="btn btn-default" href='@Url.Action("Matricula", "Home")'>Ver más &raquo;</a></p>
+    </div>
+</div>
